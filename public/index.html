@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Koi Pond Maintenance and Cleaning Services</title>
+  <meta name="description" content="Professional koi pond maintenance to keep water clean, balanced, and healthy for koi fish. Routine cleaning and pond care available." />
+  <link rel="canonical" href="https://koipondmaintenancecompany.com/" />
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Koi Pond Maintenance Company">
+  <style>
+:root{
+  --bg:#fafaf9; --surface:#fff; --ink:#111827; --muted:#4b5563; --line:#e7e5e4; --soft:#f5f5f4;
+  --cta:#158940; --cta2:#147a38; --max:980px; --radius:16px;
+  --shadow:0 10px 30px rgba(17,24,39,.06); --shadow2:0 10px 24px rgba(17,24,39,.08);
+}
+*{box-sizing:border-box}
+html,body{max-width:100%;overflow-x:clip;}
+body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:inherit}
+.topbar{position:sticky;top:0;z-index:50;background:rgba(250,250,249,.92);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+.topbar-inner{max-width:var(--max);margin:0 auto;padding:12px 18px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.brand{font-weight:900;letter-spacing:-.02em;text-decoration:none}
+.brand-wrap{display:flex;align-items:center;gap:8px}
+.brand-logo{display:block;width:22px;height:22px;flex-shrink:0}
+.nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.nav a:not(.btn){text-decoration:none;font-size:13px;color:var(--muted);padding:7px 10px;border-radius:12px;border:1px solid transparent}
+.nav a:not(.btn):hover{background:var(--soft);border-color:var(--line)}
+.nav a:not(.btn)[aria-current="page"]{color:var(--ink);background:var(--soft);border:1px solid var(--line)}
+.btn{display:inline-block;padding:9px 12px;background:var(--cta);color:#fff;border-radius:12px;text-decoration:none;font-weight:900;font-size:13px;border:1px solid rgba(0,0,0,.04);box-shadow:0 8px 18px rgba(22,163,74,.18)}
+.btn:hover{background:var(--cta2)}
+header{border-bottom:1px solid var(--line);background:radial-gradient(1200px 380px at 10% -20%, rgba(22,163,74,.08), transparent 55%),radial-gradient(900px 320px at 95% -25%, rgba(17,24,39,.06), transparent 50%),#fbfbfa}
+.hero{max-width:var(--max);margin:0 auto;padding:34px 18px 24px;display:grid;gap:10px}
+.hero h1{margin:0;font-size:30px;letter-spacing:-.03em;line-height:1.18}
+.sub{margin:0;color:var(--muted);max-width:78ch;font-size:14px}
+main{max-width:var(--max);margin:0 auto;padding:22px 18px 46px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);max-width:100%}
+.img{margin-top:14px;margin-bottom:16px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--soft);box-shadow:var(--shadow2);width:100%}
+.img img{display:block;width:100%;height:auto}
+@media (min-width:900px){.img{max-width:50%;margin-left:auto;margin-right:auto}}
+h2{margin:18px 0 8px;font-size:16px;letter-spacing:-.01em}
+p{margin:0 0 10px}
+.muted{color:var(--muted);font-size:13px}
+hr{border:0;border-top:1px solid var(--line);margin:18px 0}
+.city-grid{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.city-grid a{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;font-weight:800;font-size:14px;box-shadow:0 10px 24px rgba(17,24,39,.05)}
+.city-grid a:hover{transform:translateY(-1px);box-shadow:0 14px 28px rgba(17,24,39,.08)}
+footer{border-top:1px solid var(--line);background:#fbfbfa}
+.footer-inner{max-width:var(--max);margin:0 auto;padding:28px 18px;display:grid;gap:10px}
+.footer-links{display:flex;gap:12px;flex-wrap:wrap}
+.footer-links a{color:var(--muted);text-decoration:none;font-size:13px}
+.small{color:var(--muted);font-size:12px}
+
+/* ---------- TABLES (base look) ---------- */
+table{width:100%;border-collapse:separate;border-spacing:0;margin:14px 0;background:#fff;border:1px solid var(--line);border-radius:14px}
+thead th{background:var(--soft);color:var(--ink);font-size:13px;text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 12px;vertical-align:top;border-bottom:1px solid var(--line);font-size:14px;color:var(--ink)}
+tbody tr:last-child td{border-bottom:none}
+
+/* wrapper that scrolls (only works if you wrap tables in .table-scroll) */
+.table-scroll{max-width:100%}
+
+@media (max-width:640px){
+  .topbar-inner{flex-direction:column;align-items:stretch;gap:10px}
+  .nav{justify-content:center}
+  .nav .btn{width:100%;text-align:center}
+
+  /* ✅ CENTER BRAND ON MOBILE */
+  .topbar-inner .brand-wrap{
+    justify-content:center;
+  }
+  .topbar-inner .brand-wrap span{
+    text-align:center;
+  }
+
+  /* only the wrapper scrolls, NOT the whole page */
+  .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .table-scroll table{min-width:720px}
+}
+
+/* -----------------------
+   CONTACT FORM (match first block)
+----------------------- */
+.form-grid{
+  margin-top:14px;
+  display:grid;
+  gap:14px;
+  grid-template-columns:1fr 320px;
+  align-items:start;
+}
+@media (max-width: 900px){
+  .form-grid{grid-template-columns:1fr}
+}
+
+.embed-card{
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:18px;
+  background:var(--soft);
+}
+
+.nx-center{
+  display:flex;
+  justify-content:center; /* keep the small iframe centered */
+}
+
+/* Keep Networx at the required embedded size */
+#nx_form{
+  width:242px;
+  height:375px;
+}
+
+/* Force iframe to fill the fixed-size container */
+#networx_form_container iframe{
+  width:100% !important;
+  height:100% !important;
+  border:0 !important;
+}
+
+/* -----------------------
+   WHY BOX (match first block)
+----------------------- */
+.why-box{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:14px;
+  box-shadow:0 10px 24px rgba(17,24,39,0.05);
+}
+.why-box h3{
+  margin:0 0 10px;
+  font-size:15px;
+}
+.why-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:grid;
+  gap:10px;
+}
+.why-item{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+  color:var(--muted);
+  font-size:13px;
+}
+.tick{
+  width:18px;
+  height:18px;
+  border-radius:999px;
+  background:rgba(22,163,74,0.12);
+  border:1px solid rgba(22,163,74,0.22);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+.tick:before{
+  content:"✓";
+  font-weight:900;
+  font-size:12px;
+}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand brand-wrap" href="/">
+        <img
+          src="/favicon-32x32.png"
+          alt=""
+          class="brand-logo"
+          width="20"
+          height="20"
+          loading="eager"
+          decoding="async"
+        />
+        <span>Koi Pond Maintenance Company</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation"><a href="/" aria-current="page">Home</a><a class="btn" href="/contact/">Get Free Estimate</a></nav>
+    </div>
+  </div>
+
+<header>
+  <div class="hero">
+    <h1>Koi Pond Maintenance and Cleaning Services</h1>
+  </div>
+</header>
+<main>
+  <section class="card">
+
+    <div class="img">
+      <img src="/man-servicing-koi-pond.webp" alt="Man servicing koi pond" width="600" height="900" fetchpriority="high" loading="eager" />
+    </div>
+    <p>We provide professional koi pond maintenance services nationwide to keep ponds clean, balanced, and healthy for koi fish. Our service includes water quality management, debris removal, filtration checks, and routine pond care. Get reliable koi pond service from a local maintenance professional.</p><h2>What Does Professional Koi Pond Maintenance Include?</h2>
+<p>Professional koi pond maintenance includes cleaning debris, managing algae, checking filtration systems, and maintaining proper water quality. These services help keep koi healthy while preventing buildup that can damage the pond ecosystem.</p>
+<h2>How Often Does a Koi Pond Need Maintenance?</h2>
+<p>Most koi ponds need maintenance every two to four weeks, with more frequent service during warmer months when waste and algae increase. The exact schedule depends on pond size, fish load, filtration capacity, and seasonal conditions.</p>
+<h2>Why Is My Koi Pond Water Cloudy or Green?</h2>
+<p>Koi pond water often turns cloudy or green due to excess algae, poor filtration, or imbalanced water chemistry. Regular maintenance helps control algae growth and keeps water clear and safe for fish.</p>
+<h2>Why Is Foam Forming on the Surface of My Koi Pond?</h2>
+<p>Foam forms on the surface of a koi pond when excess proteins from fish waste, uneaten food, and decaying organic matter accumulate in the water. This usually indicates poor water quality or filtration that is no longer keeping up with the pond’s biological load.</p>
+<h2>How Do You Remove Sludge or Muck From the Bottom of a Koi Pond?</h2>
+<p>Sludge or muck is removed from the bottom of a koi pond using controlled vacuuming and targeted cleaning that lifts settled waste without disturbing fish or beneficial bacteria. Proper sludge removal improves oxygen levels, reduces nutrient buildup, and helps prevent recurring algae and foul odors.</p>
+<h2>Why Is There So Much Algae in My Koi Pond?</h2>
+<p>Excess algae in a koi pond is usually caused by high nutrient levels, sunlight exposure, and insufficient filtration. Without consistent maintenance, algae can grow rapidly and overwhelm the pond ecosystem.</p><h2>How Much Does Koi Pond Maintenance Cost?</h2>
+<p>Koi pond maintenance costs typically range between <strong>$600</strong> and <strong>$3000</strong>, depending on pond size, service frequency, filtration complexity, and fish load. Pricing can also vary based on seasonal needs and local labor rates.</p>
+<hr />
+<h2>Our Service Area</h2>
+<p class="muted">We provide services nationwide, including in the following cities:</p>
+<ul class="city-grid">
+<li><a href="/new-york-ny/">New York, NY</a></li>
+<li><a href="/los-angeles-ca/">Los Angeles, CA</a></li>
+<li><a href="/chicago-il/">Chicago, IL</a></li>
+<li><a href="/dallas-tx/">Dallas, TX</a></li>
+<li><a href="/fort-worth-tx/">Fort Worth, TX</a></li>
+<li><a href="/philadelphia-pa/">Philadelphia, PA</a></li>
+<li><a href="/houston-tx/">Houston, TX</a></li>
+<li><a href="/atlanta-ga/">Atlanta, GA</a></li>
+<li><a href="/washington-dc/">Washington, DC</a></li>
+<li><a href="/hagerstown-md/">Hagerstown, MD</a></li>
+<li><a href="/boston-ma/">Boston, MA</a></li>
+<li><a href="/manchester-nh/">Manchester, NH</a></li>
+<li><a href="/san-francisco-ca/">San Francisco, CA</a></li>
+<li><a href="/oakland-ca/">Oakland, CA</a></li>
+<li><a href="/san-jose-ca/">San Jose, CA</a></li>
+<li><a href="/tampa-fl/">Tampa, FL</a></li>
+<li><a href="/st-petersburg-fl/">St. Petersburg, FL</a></li>
+<li><a href="/sarasota-fl/">Sarasota, FL</a></li>
+<li><a href="/phoenix-az/">Phoenix, AZ</a></li>
+<li><a href="/prescott-az/">Prescott, AZ</a></li>
+<li><a href="/seattle-wa/">Seattle, WA</a></li>
+<li><a href="/tacoma-wa/">Tacoma, WA</a></li>
+<li><a href="/detroit-mi/">Detroit, MI</a></li>
+<li><a href="/orlando-fl/">Orlando, FL</a></li>
+<li><a href="/daytona-beach-fl/">Daytona Beach, FL</a></li>
+<li><a href="/melbourne-fl/">Melbourne, FL</a></li>
+<li><a href="/minneapolis-mn/">Minneapolis, MN</a></li>
+<li><a href="/st-paul-mn/">St. Paul, MN</a></li>
+<li><a href="/denver-co/">Denver, CO</a></li>
+<li><a href="/miami-fl/">Miami, FL</a></li>
+<li><a href="/fort-lauderdale-fl/">Fort Lauderdale, FL</a></li>
+<li><a href="/cleveland-oh/">Cleveland, OH</a></li>
+<li><a href="/akron-oh/">Akron, OH</a></li>
+<li><a href="/canton-oh/">Canton, OH</a></li>
+<li><a href="/sacramento-ca/">Sacramento, CA</a></li>
+<li><a href="/stockton-ca/">Stockton, CA</a></li>
+<li><a href="/modesto-ca/">Modesto, CA</a></li>
+<li><a href="/charlotte-nc/">Charlotte, NC</a></li>
+<li><a href="/raleigh-nc/">Raleigh, NC</a></li>
+<li><a href="/durham-nc/">Durham, NC</a></li>
+<li><a href="/fayetteville-nc/">Fayetteville, NC</a></li>
+<li><a href="/portland-or/">Portland, OR</a></li>
+<li><a href="/st-louis-mo/">St. Louis, MO</a></li>
+<li><a href="/indianapolis-in/">Indianapolis, IN</a></li>
+<li><a href="/nashville-tn/">Nashville, TN</a></li>
+<li><a href="/pittsburgh-pa/">Pittsburgh, PA</a></li>
+<li><a href="/salt-lake-city-ut/">Salt Lake City, UT</a></li>
+<li><a href="/baltimore-md/">Baltimore, MD</a></li>
+<li><a href="/san-diego-ca/">San Diego, CA</a></li>
+<li><a href="/san-antonio-tx/">San Antonio, TX</a></li>
+<li><a href="/hartford-ct/">Hartford, CT</a></li>
+<li><a href="/new-haven-ct/">New Haven, CT</a></li>
+<li><a href="/kansas-city-mo/">Kansas City, MO</a></li>
+<li><a href="/austin-tx/">Austin, TX</a></li>
+<li><a href="/columbus-oh/">Columbus, OH</a></li>
+<li><a href="/greenville-sc/">Greenville, SC</a></li>
+<li><a href="/spartanburg-sc/">Spartanburg, SC</a></li>
+<li><a href="/asheville-nc/">Asheville, NC</a></li>
+<li><a href="/anderson-sc/">Anderson, SC</a></li>
+<li><a href="/cincinnati-oh/">Cincinnati, OH</a></li>
+<li><a href="/milwaukee-wi/">Milwaukee, WI</a></li>
+<li><a href="/west-palm-beach-fl/">West Palm Beach, FL</a></li>
+<li><a href="/fort-pierce-fl/">Fort Pierce, FL</a></li>
+<li><a href="/las-vegas-nv/">Las Vegas, NV</a></li>
+<li><a href="/jacksonville-fl/">Jacksonville, FL</a></li>
+<li><a href="/harrisburg-pa/">Harrisburg, PA</a></li>
+<li><a href="/lancaster-pa/">Lancaster, PA</a></li>
+<li><a href="/lebanon-pa/">Lebanon, PA</a></li>
+<li><a href="/york-pa/">York, PA</a></li>
+<li><a href="/grand-rapids-mi/">Grand Rapids, MI</a></li>
+<li><a href="/kalamazoo-mi/">Kalamazoo, MI</a></li>
+<li><a href="/battle-creek-mi/">Battle Creek, MI</a></li>
+<li><a href="/norfolk-va/">Norfolk, VA</a></li>
+<li><a href="/portsmouth-va/">Portsmouth, VA</a></li>
+<li><a href="/newport-news-va/">Newport News, VA</a></li>
+<li><a href="/birmingham-al/">Birmingham, AL</a></li>
+<li><a href="/anniston-al/">Anniston, AL</a></li>
+<li><a href="/tuscaloosa-al/">Tuscaloosa, AL</a></li>
+<li><a href="/greensboro-nc/">Greensboro, NC</a></li>
+<li><a href="/high-point-nc/">High Point, NC</a></li>
+<li><a href="/winston-salem-nc/">Winston-Salem, NC</a></li>
+<li><a href="/oklahoma-city-ok/">Oklahoma City, OK</a></li>
+<li><a href="/albuquerque-nm/">Albuquerque, NM</a></li>
+<li><a href="/santa-fe-nm/">Santa Fe, NM</a></li>
+<li><a href="/louisville-ky/">Louisville, KY</a></li>
+<li><a href="/new-orleans-la/">New Orleans, LA</a></li>
+<li><a href="/memphis-tn/">Memphis, TN</a></li>
+<li><a href="/providence-ri/">Providence, RI</a></li>
+<li><a href="/new-bedford-ma/">New Bedford, MA</a></li>
+<li><a href="/fort-myers-fl/">Fort Myers, FL</a></li>
+<li><a href="/naples-fl/">Naples, FL</a></li>
+<li><a href="/buffalo-ny/">Buffalo, NY</a></li>
+<li><a href="/fresno-ca/">Fresno, CA</a></li>
+<li><a href="/visalia-ca/">Visalia, CA</a></li>
+<li><a href="/richmond-va/">Richmond, VA</a></li>
+<li><a href="/petersburg-va/">Petersburg, VA</a></li>
+<li><a href="/mobile-al/">Mobile, AL</a></li>
+<li><a href="/pensacola-fl/">Pensacola, FL</a></li>
+<li><a href="/fort-walton-beach-fl/">Fort Walton Beach, FL</a></li>
+<li><a href="/little-rock-ar/">Little Rock, AR</a></li>
+<li><a href="/pine-bluff-ar/">Pine Bluff, AR</a></li>
+<li><a href="/wilkes-barre-pa/">Wilkes-Barre, PA</a></li>
+<li><a href="/scranton-pa/">Scranton, PA</a></li>
+<li><a href="/hazleton-pa/">Hazleton, PA</a></li>
+<li><a href="/knoxville-tn/">Knoxville, TN</a></li>
+<li><a href="/tulsa-ok/">Tulsa, OK</a></li>
+<li><a href="/albany-ny/">Albany, NY</a></li>
+<li><a href="/schenectady-ny/">Schenectady, NY</a></li>
+<li><a href="/troy-ny/">Troy, NY</a></li>
+<li><a href="/lexington-ky/">Lexington, KY</a></li>
+<li><a href="/dayton-oh/">Dayton, OH</a></li>
+<li><a href="/tucson-az/">Tucson, AZ</a></li>
+<li><a href="/sierra-vista-az/">Sierra Vista, AZ</a></li>
+<li><a href="/spokane-wa/">Spokane, WA</a></li>
+<li><a href="/des-moines-ia/">Des Moines, IA</a></li>
+<li><a href="/ames-ia/">Ames, IA</a></li>
+<li><a href="/green-bay-wi/">Green Bay, WI</a></li>
+<li><a href="/appleton-wi/">Appleton, WI</a></li>
+<li><a href="/honolulu-hi/">Honolulu, HI</a></li>
+<li><a href="/roanoke-va/">Roanoke, VA</a></li>
+<li><a href="/lynchburg-va/">Lynchburg, VA</a></li>
+<li><a href="/wichita-ks/">Wichita, KS</a></li>
+<li><a href="/hutchinson-ks/">Hutchinson, KS</a></li>
+<li><a href="/flint-mi/">Flint, MI</a></li>
+<li><a href="/saginaw-mi/">Saginaw, MI</a></li>
+<li><a href="/bay-city-mi/">Bay City, MI</a></li>
+<li><a href="/omaha-ne/">Omaha, NE</a></li>
+<li><a href="/springfield-mo/">Springfield, MO</a></li>
+<li><a href="/huntsville-al/">Huntsville, AL</a></li>
+<li><a href="/decatur-al/">Decatur, AL</a></li>
+<li><a href="/florence-al/">Florence, AL</a></li>
+<li><a href="/columbia-sc/">Columbia, SC</a></li>
+<li><a href="/madison-wi/">Madison, WI</a></li>
+<li><a href="/portland-me/">Portland, ME</a></li>
+<li><a href="/auburn-me/">Auburn, ME</a></li>
+<li><a href="/rochester-ny/">Rochester, NY</a></li>
+<li><a href="/harlingen-tx/">Harlingen, TX</a></li>
+<li><a href="/weslaco-tx/">Weslaco, TX</a></li>
+<li><a href="/brownsville-tx/">Brownsville, TX</a></li>
+<li><a href="/mcallen-tx/">McAllen, TX</a></li>
+<li><a href="/toledo-oh/">Toledo, OH</a></li>
+<li><a href="/charleston-wv/">Charleston, WV</a></li>
+<li><a href="/huntington-wv/">Huntington, WV</a></li>
+<li><a href="/waco-tx/">Waco, TX</a></li>
+<li><a href="/temple-tx/">Temple, TX</a></li>
+<li><a href="/bryan-tx/">Bryan, TX</a></li>
+<li><a href="/savannah-ga/">Savannah, GA</a></li>
+<li><a href="/charleston-sc/">Charleston, SC</a></li>
+<li><a href="/chattanooga-tn/">Chattanooga, TN</a></li>
+<li><a href="/colorado-springs-co/">Colorado Springs, CO</a></li>
+<li><a href="/pueblo-co/">Pueblo, CO</a></li>
+<li><a href="/syracuse-ny/">Syracuse, NY</a></li>
+<li><a href="/el-paso-tx/">El Paso, TX</a></li>
+<li><a href="/las-cruces-nm/">Las Cruces, NM</a></li>
+<li><a href="/paducah-ky/">Paducah, KY</a></li>
+<li><a href="/cape-girardeau-mo/">Cape Girardeau, MO</a></li>
+<li><a href="/harrisburg-il/">Harrisburg, IL</a></li>
+<li><a href="/shreveport-la/">Shreveport, LA</a></li>
+<li><a href="/texarkana-tx/">Texarkana, TX</a></li>
+<li><a href="/champaign-il/">Champaign, IL</a></li>
+<li><a href="/urbana-il/">Urbana, IL</a></li>
+<li><a href="/springfield-il/">Springfield, IL</a></li>
+<li><a href="/decatur-il/">Decatur, IL</a></li>
+<li><a href="/burlington-vt/">Burlington, VT</a></li>
+<li><a href="/plattsburgh-ny/">Plattsburgh, NY</a></li>
+<li><a href="/cedar-rapids-ia/">Cedar Rapids, IA</a></li>
+<li><a href="/waterloo-ia/">Waterloo, IA</a></li>
+<li><a href="/iowa-city-ia/">Iowa City, IA</a></li>
+<li><a href="/dubuque-ia/">Dubuque, IA</a></li>
+<li><a href="/baton-rouge-la/">Baton Rouge, LA</a></li>
+<li><a href="/fort-smith-ar/">Fort Smith, AR</a></li>
+<li><a href="/fayetteville-ar/">Fayetteville, AR</a></li>
+<li><a href="/springdale-ar/">Springdale, AR</a></li>
+<li><a href="/rogers-ar/">Rogers, AR</a></li>
+<li><a href="/myrtle-beach-sc/">Myrtle Beach, SC</a></li>
+<li><a href="/florence-sc/">Florence, SC</a></li>
+<li><a href="/boise-id/">Boise, ID</a></li>
+<li><a href="/jackson-ms/">Jackson, MS</a></li>
+<li><a href="/south-bend-in/">South Bend, IN</a></li>
+<li><a href="/elkhart-in/">Elkhart, IN</a></li>
+<li><a href="/johnson-city-tn/">Johnson City, TN</a></li>
+<li><a href="/kingsport-tn/">Kingsport, TN</a></li>
+<li><a href="/bristol-va/">Bristol, VA</a></li>
+<li><a href="/greenville-nc/">Greenville, NC</a></li>
+<li><a href="/new-bern-nc/">New Bern, NC</a></li>
+<li><a href="/washington-nc/">Washington, NC</a></li>
+<li><a href="/reno-nv/">Reno, NV</a></li>
+<li><a href="/davenport-ia/">Davenport, IA</a></li>
+<li><a href="/rock-island-il/">Rock Island, IL</a></li>
+<li><a href="/moline-il/">Moline, IL</a></li>
+<li><a href="/tallahassee-fl/">Tallahassee, FL</a></li>
+<li><a href="/thomasville-ga/">Thomasville, GA</a></li>
+<li><a href="/tyler-tx/">Tyler, TX</a></li>
+<li><a href="/longview-tx/">Longview, TX</a></li>
+<li><a href="/lufkin-tx/">Lufkin, TX</a></li>
+<li><a href="/nacogdoches-tx/">Nacogdoches, TX</a></li>
+<li><a href="/lincoln-ne/">Lincoln, NE</a></li>
+<li><a href="/hastings-ne/">Hastings, NE</a></li>
+<li><a href="/kearney-ne/">Kearney, NE</a></li>
+<li><a href="/augusta-ga/">Augusta, GA</a></li>
+<li><a href="/aiken-sc/">Aiken, SC</a></li>
+<li><a href="/evansville-in/">Evansville, IN</a></li>
+<li><a href="/fort-wayne-in/">Fort Wayne, IN</a></li>
+<li><a href="/sioux-falls-sd/">Sioux Falls, SD</a></li>
+<li><a href="/mitchell-sd/">Mitchell, SD</a></li>
+<li><a href="/johnstown-pa/">Johnstown, PA</a></li>
+<li><a href="/altoona-pa/">Altoona, PA</a></li>
+<li><a href="/state-college-pa/">State College, PA</a></li>
+<li><a href="/fargo-nd/">Fargo, ND</a></li>
+<li><a href="/valley-city-nd/">Valley City, ND</a></li>
+<li><a href="/yakima-wa/">Yakima, WA</a></li>
+<li><a href="/pasco-wa/">Pasco, WA</a></li>
+<li><a href="/richland-wa/">Richland, WA</a></li>
+<li><a href="/kennewick-wa/">Kennewick, WA</a></li>
+<li><a href="/springfield-ma/">Springfield, MA</a></li>
+<li><a href="/holyoke-ma/">Holyoke, MA</a></li>
+<li><a href="/traverse-city-mi/">Traverse City, MI</a></li>
+<li><a href="/cadillac-mi/">Cadillac, MI</a></li>
+<li><a href="/lansing-mi/">Lansing, MI</a></li>
+<li><a href="/youngstown-oh/">Youngstown, OH</a></li>
+<li><a href="/macon-ga/">Macon, GA</a></li>
+<li><a href="/eugene-or/">Eugene, OR</a></li>
+<li><a href="/montgomery-al/">Montgomery, AL</a></li>
+<li><a href="/selma-al/">Selma, AL</a></li>
+<li><a href="/peoria-il/">Peoria, IL</a></li>
+<li><a href="/bloomington-il/">Bloomington, IL</a></li>
+<li><a href="/santa-barbara-ca/">Santa Barbara, CA</a></li>
+<li><a href="/santa-maria-ca/">Santa Maria, CA</a></li>
+<li><a href="/san-luis-obispo-ca/">San Luis Obispo, CA</a></li>
+<li><a href="/lafayette-la/">Lafayette, LA</a></li>
+<li><a href="/bakersfield-ca/">Bakersfield, CA</a></li>
+<li><a href="/wilmington-nc/">Wilmington, NC</a></li>
+<li><a href="/columbus-ga/">Columbus, GA</a></li>
+<li><a href="/monterey-ca/">Monterey, CA</a></li>
+<li><a href="/salinas-ca/">Salinas, CA</a></li>
+<li><a href="/la-crosse-wi/">La Crosse, WI</a></li>
+<li><a href="/eau-claire-wi/">Eau Claire, WI</a></li>
+<li><a href="/corpus-christi-tx/">Corpus Christi, TX</a></li>
+<li><a href="/salisbury-md/">Salisbury, MD</a></li>
+<li><a href="/amarillo-tx/">Amarillo, TX</a></li>
+<li><a href="/wausau-wi/">Wausau, WI</a></li>
+<li><a href="/rhinelander-wi/">Rhinelander, WI</a></li>
+<li><a href="/columbus-ms/">Columbus, MS</a></li>
+<li><a href="/tupelo-ms/">Tupelo, MS</a></li>
+<li><a href="/west-point-ms/">West Point, MS</a></li>
+<li><a href="/starkville-ms/">Starkville, MS</a></li>
+<li><a href="/columbia-mo/">Columbia, MO</a></li>
+<li><a href="/jefferson-city-mo/">Jefferson City, MO</a></li>
+<li><a href="/chico-ca/">Chico, CA</a></li>
+<li><a href="/redding-ca/">Redding, CA</a></li>
+<li><a href="/rockford-il/">Rockford, IL</a></li>
+<li><a href="/duluth-mn/">Duluth, MN</a></li>
+<li><a href="/superior-wi/">Superior, WI</a></li>
+<li><a href="/medford-or/">Medford, OR</a></li>
+<li><a href="/klamath-falls-or/">Klamath Falls, OR</a></li>
+<li><a href="/lubbock-tx/">Lubbock, TX</a></li>
+<li><a href="/topeka-ks/">Topeka, KS</a></li>
+<li><a href="/monroe-la/">Monroe, LA</a></li>
+<li><a href="/el-dorado-ar/">El Dorado, AR</a></li>
+<li><a href="/beaumont-tx/">Beaumont, TX</a></li>
+<li><a href="/port-arthur-tx/">Port Arthur, TX</a></li>
+<li><a href="/odessa-tx/">Odessa, TX</a></li>
+<li><a href="/midland-tx/">Midland, TX</a></li>
+<li><a href="/palm-springs-ca/">Palm Springs, CA</a></li>
+<li><a href="/anchorage-ak/">Anchorage, AK</a></li>
+<li><a href="/minot-nd/">Minot, ND</a></li>
+<li><a href="/bismarck-nd/">Bismarck, ND</a></li>
+<li><a href="/dickinson-nd/">Dickinson, ND</a></li>
+<li><a href="/williston-nd/">Williston, ND</a></li>
+<li><a href="/panama-city-fl/">Panama City, FL</a></li>
+<li><a href="/sioux-city-ia/">Sioux City, IA</a></li>
+<li><a href="/wichita-falls-tx/">Wichita Falls, TX</a></li>
+<li><a href="/lawton-ok/">Lawton, OK</a></li>
+<li><a href="/joplin-mo/">Joplin, MO</a></li>
+<li><a href="/pittsburg-ks/">Pittsburg, KS</a></li>
+<li><a href="/albany-ga/">Albany, GA</a></li>
+<li><a href="/rochester-mn/">Rochester, MN</a></li>
+<li><a href="/mason-city-ia/">Mason City, IA</a></li>
+<li><a href="/austin-mn/">Austin, MN</a></li>
+<li><a href="/erie-pa/">Erie, PA</a></li>
+<li><a href="/idaho-falls-id/">Idaho Falls, ID</a></li>
+<li><a href="/pocatello-id/">Pocatello, ID</a></li>
+<li><a href="/jackson-wy/">Jackson, WY</a></li>
+<li><a href="/bangor-me/">Bangor, ME</a></li>
+<li><a href="/gainesville-fl/">Gainesville, FL</a></li>
+<li><a href="/biloxi-ms/">Biloxi, MS</a></li>
+<li><a href="/gulfport-ms/">Gulfport, MS</a></li>
+<li><a href="/terre-haute-in/">Terre Haute, IN</a></li>
+<li><a href="/sherman-tx/">Sherman, TX</a></li>
+<li><a href="/ada-ok/">Ada, OK</a></li>
+<li><a href="/missoula-mt/">Missoula, MT</a></li>
+<li><a href="/binghamton-ny/">Binghamton, NY</a></li>
+<li><a href="/wheeling-wv/">Wheeling, WV</a></li>
+<li><a href="/steubenville-oh/">Steubenville, OH</a></li>
+<li><a href="/yuma-az/">Yuma, AZ</a></li>
+<li><a href="/el-centro-ca/">El Centro, CA</a></li>
+<li><a href="/billings-mt/">Billings, MT</a></li>
+<li><a href="/abilene-tx/">Abilene, TX</a></li>
+<li><a href="/sweetwater-tx/">Sweetwater, TX</a></li>
+<li><a href="/bluefield-wv/">Bluefield, WV</a></li>
+<li><a href="/beckley-wv/">Beckley, WV</a></li>
+<li><a href="/oak-hill-wv/">Oak Hill, WV</a></li>
+<li><a href="/hattiesburg-ms/">Hattiesburg, MS</a></li>
+<li><a href="/laurel-ms/">Laurel, MS</a></li>
+<li><a href="/rapid-city-sd/">Rapid City, SD</a></li>
+<li><a href="/dothan-al/">Dothan, AL</a></li>
+<li><a href="/utica-ny/">Utica, NY</a></li>
+<li><a href="/clarksburg-wv/">Clarksburg, WV</a></li>
+<li><a href="/weston-wv/">Weston, WV</a></li>
+<li><a href="/harrisonburg-va/">Harrisonburg, VA</a></li>
+<li><a href="/jackson-tn/">Jackson, TN</a></li>
+<li><a href="/quincy-il/">Quincy, IL</a></li>
+<li><a href="/hannibal-mo/">Hannibal, MO</a></li>
+<li><a href="/keokuk-ia/">Keokuk, IA</a></li>
+<li><a href="/charlottesville-va/">Charlottesville, VA</a></li>
+<li><a href="/lake-charles-la/">Lake Charles, LA</a></li>
+<li><a href="/elmira-ny/">Elmira, NY</a></li>
+<li><a href="/corning-ny/">Corning, NY</a></li>
+<li><a href="/watertown-ny/">Watertown, NY</a></li>
+<li><a href="/bowling-green-ky/">Bowling Green, KY</a></li>
+<li><a href="/marquette-mi/">Marquette, MI</a></li>
+<li><a href="/jonesboro-ar/">Jonesboro, AR</a></li>
+<li><a href="/alexandria-la/">Alexandria, LA</a></li>
+<li><a href="/laredo-tx/">Laredo, TX</a></li>
+<li><a href="/butte-mt/">Butte, MT</a></li>
+<li><a href="/bozeman-mt/">Bozeman, MT</a></li>
+<li><a href="/bend-or/">Bend, OR</a></li>
+<li><a href="/grand-junction-co/">Grand Junction, CO</a></li>
+<li><a href="/montrose-co/">Montrose, CO</a></li>
+<li><a href="/twin-falls-id/">Twin Falls, ID</a></li>
+<li><a href="/lafayette-in/">Lafayette, IN</a></li>
+<li><a href="/lima-oh/">Lima, OH</a></li>
+<li><a href="/great-falls-mt/">Great Falls, MT</a></li>
+<li><a href="/meridian-ms/">Meridian, MS</a></li>
+<li><a href="/cheyenne-wy/">Cheyenne, WY</a></li>
+<li><a href="/scottsbluff-ne/">Scottsbluff, NE</a></li>
+<li><a href="/parkersburg-wv/">Parkersburg, WV</a></li>
+<li><a href="/greenwood-ms/">Greenwood, MS</a></li>
+<li><a href="/greenville-ms/">Greenville, MS</a></li>
+<li><a href="/eureka-ca/">Eureka, CA</a></li>
+<li><a href="/san-angelo-tx/">San Angelo, TX</a></li>
+<li><a href="/casper-wy/">Casper, WY</a></li>
+<li><a href="/riverton-wy/">Riverton, WY</a></li>
+<li><a href="/mankato-mn/">Mankato, MN</a></li>
+<li><a href="/ottumwa-ia/">Ottumwa, IA</a></li>
+<li><a href="/kirksville-mo/">Kirksville, MO</a></li>
+<li><a href="/st-joseph-mo/">St. Joseph, MO</a></li>
+<li><a href="/fairbanks-ak/">Fairbanks, AK</a></li>
+<li><a href="/zanesville-oh/">Zanesville, OH</a></li>
+<li><a href="/victoria-tx/">Victoria, TX</a></li>
+<li><a href="/helena-mt/">Helena, MT</a></li>
+<li><a href="/presque-isle-me/">Presque Isle, ME</a></li>
+<li><a href="/juneau-ak/">Juneau, AK</a></li>
+<li><a href="/alpena-mi/">Alpena, MI</a></li>
+<li><a href="/north-platte-ne/">North Platte, NE</a></li>
+<li><a href="/glendive-mt/">Glendive, MT</a></li>
+</ul>
+
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    
+    <p class="sub">Ready to move forward? Request a free estimate.</p>
+    <div>
+      <a class="btn" href="/contact/">Get Free Estimate</a>
+    </div>
+    <div class="small">© Koi Pond Maintenance Company. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

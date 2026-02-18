@@ -1,0 +1,357 @@
+city,state,col
+New York,NY,1.2
+Los Angeles,CA,1.18
+Chicago,IL,1.0
+Dallas,TX,1.0
+Fort Worth,TX,1.0
+Philadelphia,PA,0.99
+Houston,TX,1.0
+Atlanta,GA,1.0
+Washington,DC,1.14
+Hagerstown,MD,1.04
+Boston,MA,1.18
+Manchester,NH,1.03
+San Francisco,CA,1.25
+Oakland,CA,1.15
+San Jose,CA,1.26
+Tampa,FL,1.03
+St. Petersburg,FL,1.03
+Sarasota,FL,1.03
+Phoenix,AZ,1.02
+Prescott,AZ,1.02
+Seattle,WA,1.12
+Tacoma,WA,1.08
+Detroit,MI,0.95
+Orlando,FL,1.03
+Daytona Beach,FL,1.03
+Melbourne,FL,1.03
+Minneapolis,MN,1.01
+St. Paul,MN,1.01
+Denver,CO,1.05
+Miami,FL,1.03
+Fort Lauderdale,FL,1.03
+Cleveland,OH,0.96
+Akron,OH,0.96
+Canton,OH,0.96
+Sacramento,CA,1.15
+Stockton,CA,1.15
+Modesto,CA,1.15
+Charlotte,NC,0.99
+Raleigh,NC,0.99
+Durham,NC,0.99
+Fayetteville,NC,0.99
+Portland,OR,1.05
+St. Louis,MO,0.96
+Indianapolis,IN,0.96
+Nashville,TN,0.96
+Pittsburgh,PA,0.99
+Salt Lake City,UT,1.02
+Baltimore,MD,1.04
+San Diego,CA,1.15
+San Antonio,TX,1.0
+Hartford,CT,1.08
+New Haven,CT,1.08
+Kansas City,MO,0.96
+Austin,TX,1.0
+Columbus,OH,0.96
+Greenville,SC,0.97
+Spartanburg,SC,0.97
+Asheville,NC,0.99
+Anderson,SC,0.97
+Cincinnati,OH,0.96
+Milwaukee,WI,0.97
+West Palm Beach,FL,1.03
+Fort Pierce,FL,1.03
+Las Vegas,NV,1.0
+Jacksonville,FL,1.03
+Harrisburg,PA,0.99
+Lancaster,PA,0.99
+Lebanon,PA,0.99
+York,PA,0.99
+Grand Rapids,MI,0.95
+Kalamazoo,MI,0.95
+Battle Creek,MI,0.95
+Norfolk,VA,1.03
+Portsmouth,VA,1.03
+Newport News,VA,1.03
+Birmingham,AL,0.93
+Anniston,AL,0.93
+Tuscaloosa,AL,0.93
+Greensboro,NC,0.99
+High Point,NC,0.99
+Winston-Salem,NC,0.99
+Oklahoma City,OK,0.94
+Albuquerque,NM,0.96
+Santa Fe,NM,0.96
+Louisville,KY,0.95
+New Orleans,LA,0.95
+Memphis,TN,0.96
+Providence,RI,1.04
+New Bedford,MA,1.1
+Fort Myers,FL,1.03
+Naples,FL,1.03
+Buffalo,NY,1.12
+Fresno,CA,1.15
+Visalia,CA,1.15
+Richmond,VA,1.03
+Petersburg,VA,1.03
+Mobile,AL,0.93
+Pensacola,FL,1.03
+Fort Walton Beach,FL,1.03
+Little Rock,AR,0.93
+Pine Bluff,AR,0.93
+Wilkes-Barre,PA,0.99
+Scranton,PA,0.99
+Hazleton,PA,0.99
+Knoxville,TN,0.96
+Tulsa,OK,0.94
+Albany,NY,1.12
+Schenectady,NY,1.12
+Troy,NY,1.12
+Lexington,KY,0.95
+Dayton,OH,0.96
+Tucson,AZ,1.02
+Sierra Vista,AZ,1.02
+Spokane,WA,1.08
+Des Moines,IA,0.95
+Ames,IA,0.95
+Green Bay,WI,0.97
+Appleton,WI,0.97
+Honolulu,HI,1.18
+Roanoke,VA,1.03
+Lynchburg,VA,1.03
+Wichita,KS,0.94
+Hutchinson,KS,0.94
+Flint,MI,0.95
+Saginaw,MI,0.95
+Bay City,MI,0.95
+Omaha,NE,0.95
+Springfield,MO,0.96
+Huntsville,AL,0.93
+Decatur,AL,0.93
+Florence,AL,0.93
+Columbia,SC,0.97
+Madison,WI,0.97
+Portland,ME,0.98
+Auburn,ME,0.98
+Rochester,NY,1.12
+Harlingen,TX,1.0
+Weslaco,TX,1.0
+Brownsville,TX,1.0
+McAllen,TX,1.0
+Toledo,OH,0.96
+Charleston,WV,0.92
+Huntington,WV,0.92
+Waco,TX,1.0
+Temple,TX,1.0
+Bryan,TX,1.0
+Savannah,GA,1.0
+Charleston,SC,0.97
+Chattanooga,TN,0.96
+Colorado Springs,CO,1.05
+Pueblo,CO,1.05
+Syracuse,NY,1.12
+El Paso,TX,1.0
+Las Cruces,NM,0.96
+Paducah,KY,0.95
+Cape Girardeau,MO,0.96
+Harrisburg,IL,1.0
+Shreveport,LA,0.95
+Texarkana,TX,1.0
+Champaign,IL,1.0
+Urbana,IL,1.0
+Springfield,IL,1.0
+Decatur,IL,1.0
+Burlington,VT,1.02
+Plattsburgh,NY,1.12
+Cedar Rapids,IA,0.95
+Waterloo,IA,0.95
+Iowa City,IA,0.95
+Dubuque,IA,0.95
+Baton Rouge,LA,0.95
+Fort Smith,AR,0.93
+Fayetteville,AR,0.93
+Springdale,AR,0.93
+Rogers,AR,0.93
+Myrtle Beach,SC,0.97
+Florence,SC,0.97
+Boise,ID,0.97
+Jackson,MS,0.92
+South Bend,IN,0.96
+Elkhart,IN,0.96
+Johnson City,TN,0.96
+Kingsport,TN,0.96
+Bristol,VA,1.03
+Greenville,NC,0.99
+New Bern,NC,0.99
+Washington,NC,0.99
+Reno,NV,1.0
+Davenport,IA,0.95
+Rock Island,IL,1.0
+Moline,IL,1.0
+Tallahassee,FL,1.03
+Thomasville,GA,1.0
+Tyler,TX,1.0
+Longview,TX,1.0
+Lufkin,TX,1.0
+Nacogdoches,TX,1.0
+Lincoln,NE,0.95
+Hastings,NE,0.95
+Kearney,NE,0.95
+Augusta,GA,1.0
+Aiken,SC,0.97
+Evansville,IN,0.96
+Fort Wayne,IN,0.96
+Sioux Falls,SD,0.95
+Mitchell,SD,0.95
+Johnstown,PA,0.99
+Altoona,PA,0.99
+State College,PA,0.99
+Fargo,ND,0.95
+Valley City,ND,0.95
+Yakima,WA,1.08
+Pasco,WA,1.08
+Richland,WA,1.08
+Kennewick,WA,1.08
+Springfield,MA,1.1
+Holyoke,MA,1.1
+Traverse City,MI,0.95
+Cadillac,MI,0.95
+Lansing,MI,0.95
+Youngstown,OH,0.96
+Macon,GA,1.0
+Eugene,OR,1.05
+Montgomery,AL,0.93
+Selma,AL,0.93
+Peoria,IL,1.0
+Bloomington,IL,1.0
+Santa Barbara,CA,1.15
+Santa Maria,CA,1.15
+San Luis Obispo,CA,1.15
+Lafayette,LA,0.95
+Bakersfield,CA,1.15
+Wilmington,NC,0.99
+Columbus,GA,1.0
+Monterey,CA,1.15
+Salinas,CA,1.15
+La Crosse,WI,0.97
+Eau Claire,WI,0.97
+Corpus Christi,TX,1.0
+Salisbury,MD,1.04
+Amarillo,TX,1.0
+Wausau,WI,0.97
+Rhinelander,WI,0.97
+Columbus,MS,0.92
+Tupelo,MS,0.92
+West Point,MS,0.92
+Starkville,MS,0.92
+Columbia,MO,0.96
+Jefferson City,MO,0.96
+Chico,CA,1.15
+Redding,CA,1.15
+Rockford,IL,1.0
+Duluth,MN,1.01
+Superior,WI,0.97
+Medford,OR,1.05
+Klamath Falls,OR,1.05
+Lubbock,TX,1.0
+Topeka,KS,0.94
+Monroe,LA,0.95
+El Dorado,AR,0.93
+Beaumont,TX,1.0
+Port Arthur,TX,1.0
+Odessa,TX,1.0
+Midland,TX,1.0
+Palm Springs,CA,1.15
+Anchorage,AK,1.05
+Minot,ND,0.95
+Bismarck,ND,0.95
+Dickinson,ND,0.95
+Williston,ND,0.95
+Panama City,FL,1.03
+Sioux City,IA,0.95
+Wichita Falls,TX,1.0
+Lawton,OK,0.94
+Joplin,MO,0.96
+Pittsburg,KS,0.94
+Albany,GA,1.0
+Rochester,MN,1.01
+Mason City,IA,0.95
+Austin,MN,1.01
+Erie,PA,0.99
+Idaho Falls,ID,0.97
+Pocatello,ID,0.97
+Jackson,WY,0.96
+Bangor,ME,0.98
+Gainesville,FL,1.03
+Biloxi,MS,0.92
+Gulfport,MS,0.92
+Terre Haute,IN,0.96
+Sherman,TX,1.0
+Ada,OK,0.94
+Missoula,MT,0.97
+Binghamton,NY,1.12
+Wheeling,WV,0.92
+Steubenville,OH,0.96
+Yuma,AZ,1.02
+El Centro,CA,1.15
+Billings,MT,0.97
+Abilene,TX,1.0
+Sweetwater,TX,1.0
+Bluefield,WV,0.92
+Beckley,WV,0.92
+Oak Hill,WV,0.92
+Hattiesburg,MS,0.92
+Laurel,MS,0.92
+Rapid City,SD,0.95
+Dothan,AL,0.93
+Utica,NY,1.12
+Clarksburg,WV,0.92
+Weston,WV,0.92
+Harrisonburg,VA,1.03
+Jackson,TN,0.96
+Quincy,IL,1.0
+Hannibal,MO,0.96
+Keokuk,IA,0.95
+Charlottesville,VA,1.03
+Lake Charles,LA,0.95
+Elmira,NY,1.12
+Corning,NY,1.12
+Watertown,NY,1.12
+Bowling Green,KY,0.95
+Marquette,MI,0.95
+Jonesboro,AR,0.93
+Alexandria,LA,0.95
+Laredo,TX,1.0
+Butte,MT,0.97
+Bozeman,MT,0.97
+Bend,OR,1.05
+Grand Junction,CO,1.05
+Montrose,CO,1.05
+Twin Falls,ID,0.97
+Lafayette,IN,0.96
+Lima,OH,0.96
+Great Falls,MT,0.97
+Meridian,MS,0.92
+Cheyenne,WY,0.96
+Scottsbluff,NE,0.95
+Parkersburg,WV,0.92
+Greenwood,MS,0.92
+Greenville,MS,0.92
+Eureka,CA,1.15
+San Angelo,TX,1.0
+Casper,WY,0.96
+Riverton,WY,0.96
+Mankato,MN,1.01
+Ottumwa,IA,0.95
+Kirksville,MO,0.96
+St. Joseph,MO,0.96
+Fairbanks,AK,1.05
+Zanesville,OH,0.96
+Victoria,TX,1.0
+Helena,MT,0.97
+Presque Isle,ME,0.98
+Juneau,AK,1.05
+Alpena,MI,0.95
+North Platte,NE,0.95
+Glendive,MT,0.97
