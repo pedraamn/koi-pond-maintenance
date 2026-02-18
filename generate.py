@@ -120,7 +120,7 @@ class SiteConfig:
 
   # Pricing base
   cost_low: int = 600
-  cost_high: int = 3000
+  cost_high: int = 4500
 
   # Core titles/subs
   h1_title: str = "Koi Pond Maintenance and Cleaning Services"
@@ -159,7 +159,7 @@ class SiteConfig:
   location_cost_h2: str = "How Much Does Koi Pond Maintenance Cost{loc}?"
 
   location_cost_p: str = (
-    "Koi pond maintenance costs{loc} typically range between {cost_lo} and {cost_hi}, "
+    "Koi pond maintenance costs{loc} typically range between {cost_lo} and {cost_hi} per year, "
     "depending on pond size, service frequency, filtration complexity, and fish load. "
     "Pricing can also vary based on seasonal needs and local labor rates."
   )
